@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link, .navbar-brand {
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255,0.6);
+}
+
+.horizontal-container{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-container-1{
+    background-color: yellow;
+}
+
+.horizontal-container-2{
+    background-color: green;
+}
+
+.horizontal-container-content{
+    width: 50%;
+}
+
+.horizontal-container-text{
+    text-align: justify;
+    background-color: red;
+    margin: 20px 10px 10px 20px;
+}
+
+.horizontal-container-imgs{
+    background-color: blue;
+    text-align: center;
+    margin: 20px 20px 10px 10px;
+}
+
+#img1{
+    width: 500px;
+}
+
+@media (max-width: 1200px){
+
+    .description{
+        font-size: 14px;
+    }
+
+    #img1{
+        width: 400px;
+    }
+
+}
+
