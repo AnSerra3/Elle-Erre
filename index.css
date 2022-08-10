@@ -2,7 +2,6 @@
     --container-1-margin: 35px auto 18px auto;
     --container-1-gap: 25px;
     --img-1-width: 250px;
-    --container-2-margin: 35px auto;
     --container-2-padding: 18px 0 35px 0;
 }
 
@@ -110,7 +109,6 @@ footer {
         --container-1-margin: 50px auto 25px auto;
         --container-1-gap: 25px;
         --img-1-width: 250px;
-        --container-2-margin: 25px auto;
         --container-2-padding: 25px 0 50px 0;
     }
 }
@@ -121,7 +119,6 @@ footer {
         --container-1-margin: 100px auto 50px auto;
         --container-1-gap: 50px;
         --img-1-width: 300px;
-        --container-2-margin: 50px auto;
         --container-2-padding: 50px 0 100px 0;
     }
 }
@@ -132,7 +129,6 @@ footer {
         --container-1-margin: 150px auto 75px auto;
         --container-1-gap: 75px;
         --img-1-width: 400px;
-        --container-2-margin: 75px auto;
         --container-2-padding: 75px 0 150px 0;
     }
 }
@@ -143,7 +139,6 @@ footer {
         --container-1-margin: 200px auto 100px auto;
         --container-1-gap: 100px;
         --img-1-width: 500px;
-        --container-2-margin: 100px auto;
         --container-2-padding: 100px 0 200px 0;
     }
 }
