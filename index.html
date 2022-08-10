@@ -10,6 +10,7 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 <body>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
@@ -30,7 +31,7 @@
                     <a class="nav-link" href="#">Montaggi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="trasporti.html">Trasporti</a>
+                    <a class="nav-link" href="trasporti/trasporti.html">Trasporti</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Traslochi</a>
@@ -45,38 +46,37 @@
         </div>
     </div>
 </nav>
-
-<div id="content">
-
-    <section class="cover">
-        <div class="cover-filter"></div>
-        <div class="cover-caption">
-            <div class="cover-caption-copy">
-                <div class="h1">Elle Erre</div>
-                <div id="line"></div>
-                <div class="h4">Montaggi</div>
-            </div>
-        </div>
-    </section>
-
-    <div id="container-2" class="container align-items-center">
-        <div>
-            <div class="h5">Chi Siamo</div>
-            <p>
-                L'azienda nasce come una piccola ditta di trasporti per la distribuzione di libri scolastici Mondadori
-                in Sicilia.
-                Successivamente, ci siamo rivolti anche al mondo dei traslochi e dei montaggi e nel 2019 abbiamo
-                ottenuto
-                la distribuzione della Maisons du Monde... da lì, è stata un'escalation di sacrifici e tanto lavoro che
-                ci hanno permesso, ad oggi,
-                grazie alla conoscienza del proprietario della ditta Invio Home, di occuparci delle regioni: Marche,
-                Emilia Romagna, Umbria e Lazio, con
-                l'aggiunta delle distribuzioni per conto di Leroy Merlin.
-            </p>
+<section class="cover">
+    <div class="cover-filter"></div>
+    <div class="cover-caption">
+        <div class="cover-caption-copy">
+            <div class="h1">Elle Erre</div>
+            <div id="line"></div>
+            <div class="h4">Montaggi</div>
         </div>
     </div>
-
-    <div id="container-3" class="container align-items-center">
+</section>
+<div id="container-1" class="container d-lg-flex">
+    <div data-aos="zoom-in" data-aos-duration="1500">
+        <div class="h5">Chi Siamo</div>
+        <p>
+            L'azienda nasce come una piccola ditta di trasporti per la distribuzione di libri scolastici Mondadori
+            in Sicilia.
+            Successivamente, ci siamo rivolti anche al mondo dei traslochi e dei montaggi e nel 2019 abbiamo
+            ottenuto
+            la distribuzione della Maisons du Monde... da lì, è stata un'escalation di sacrifici e tanto lavoro che
+            ci hanno permesso, ad oggi,
+            grazie alla conoscienza del proprietario della ditta Invio Home, di occuparci delle regioni: Marche,
+            Emilia Romagna, Umbria e Lazio, con
+            l'aggiunta delle distribuzioni per conto di Leroy Merlin.
+        </p>
+    </div>
+    <div id="img-1-container" data-aos="fade-left" data-aos-duration="1500">
+        <img src="imgs/index/img-1.jpg" alt="img" id="img-1">
+    </div>
+</div>
+<div id="container-2-background">
+    <div id="container-2" class="container">
         <div>
             <div class="h5">Clienti</div>
             <p>
@@ -87,37 +87,31 @@
         </div>
     </div>
 </div>
-
 <footer class="bg-dark text-center text-white">
-
     <div class="container p-2">
-
         <section>
-
             <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
             ><i class="fab fa-facebook-f"></i
             ></a>
-
             <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
             ><i class="fab fa-twitter"></i
             ></a>
-
             <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
             ><i class="fab fa-instagram"></i
             ></a>
-
         </section>
-
     </div>
-
     <div class="bg-dark text-center p-3">
         © 2020 Copyright:
         <a class="text-white" href="#">ElleErre.com</a>
     </div>
 </footer>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

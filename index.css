@@ -1,25 +1,36 @@
+:root {
+    --container-1-margin: 35px auto 18px auto;
+    --container-1-gap: 25px;
+    --img-1-width: 250px;
+    --container-2-margin: 35px;
+    --container-2-padding: 18px 0 35px 0;
+}
+
 body, html {
     box-sizing: border-box;
     width: 100%;
 }
 
+p {
+    text-align: justify;
+    font-size: large;
+}
+
+/* nav */
+
 .nav-item {
     margin: 0 15px;
 }
 
-#content {
-    min-height: calc(100vh - 120px);
-    width: 100%;
-    height: 100%;
+#logo {
+    height: 65px;
 }
 
-#logo {
-    height: 70px;
-}
+/* cover */
 
 .cover {
-    height: 70vh;
-    background-image: url("imgs/img-1.jpg");
+    height: calc(100vh - 80px);
+    background-image: url("imgs/index/cover.jpeg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -56,23 +67,36 @@ body, html {
     margin: 10px auto;
 }
 
-/*fix margin*/
+/* container-1 */
+
+#container-1 {
+    margin: var(--container-1-margin);
+    gap: var(--container-1-gap);
+}
+
+#img-1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-1 {
+    width: var(--img-1-width);
+    margin: 20px auto;
+}
+
+/* container-2 */
+
+#container-2-background {
+    background-color: rgb(245, 245, 245);
+    padding: var(--container-2-padding);
+}
+
 #container-2 {
-    margin: 20px auto;
+
 }
 
-#container-3 {
-    margin: 20px auto;
-}
-
-.h1 {
-    font-size: 36px;
-}
-
-p {
-    text-align: justify;
-    font-size: 16px;
-}
+/* footer */
 
 footer {
     bottom: 0;
@@ -82,41 +106,53 @@ footer {
 
 /*sm*/
 @media (min-width: 576px) {
-
-    #logo {
-        height: 65px;
+    :root {
+        --container-1-margin: 50px auto 25px auto;
+        --container-1-gap: 25px;
+        --img-1-width: 250px;
+        --container-2-margin: 25px auto;
+        --container-2-padding: 25px 0 50px 0;
     }
 }
 
 /*md*/
 @media (min-width: 768px) {
-
-
-    p {
-        font-size: 20px;
+    :root {
+        --container-1-margin: 100px auto 50px auto;
+        --container-1-gap: 50px;
+        --img-1-width: 300px;
+        --container-2-margin: 50px auto;
+        --container-2-padding: 50px 0 100px 0;
     }
-
-    .h1 {
-        font-size: 48px;
-    }
-
-    #container-1 {
-        gap: 30px;
-    }
-
 }
 
 /*lg*/
 @media (min-width: 992px) {
-
-
+    :root {
+        --container-1-margin: 150px auto 75px auto;
+        --container-1-gap: 75px;
+        --img-1-width: 400px;
+        --container-2-margin: 75px auto;
+        --container-2-padding: 75px 0 150px 0;
+    }
 }
-
 
 /*xl*/
 @media (min-width: 1200px) {
+    :root {
+        --container-1-margin: 200px auto 100px auto;
+        --container-1-gap: 100px;
+        --img-1-width: 500px;
+        --container-2-margin: 100px auto;
+        --container-2-padding: 100px 0 200px 0;
+    }
+}
 
+/*xxl*/
+@media (min-width: 1400px) {
+    :root {
 
+    }
 }
 
 
