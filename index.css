@@ -1,8 +1,11 @@
 :root {
-    --container-1-margin: 35px auto 18px auto;
-    --container-1-gap: 25px;
-    --img-1-width: 250px;
-    --container-2-padding: 18px 0 35px 0;
+    --container-padding: 35px 0;
+    --container-gap: 25px;
+    --img-width: 250px;
+    --container-1-background: rgb(255, 255, 255);
+    --container-2-background: rgb(245, 245, 245);
+    --container-3-background: rgb(235, 235, 235);
+    --container-4-background: rgb(225, 225, 225);
 }
 
 body, html {
@@ -68,31 +71,66 @@ p {
 
 /* container-1 */
 
-#container-1 {
-    margin: var(--container-1-margin);
-    gap: var(--container-1-gap);
+#container-1-background {
+    background-color: var(--container-1-background);
+    padding: var(--container-padding);
 }
 
-#img-1-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#container-1 {
+    gap: var(--container-gap);
 }
 
 #img-1 {
-    width: var(--img-1-width);
+    width: var(--img-width);
     margin: 20px auto;
 }
 
 /* container-2 */
 
 #container-2-background {
-    background-color: rgb(245, 245, 245);
-    padding: var(--container-2-padding);
+    background-color: var(--container-2-background);
+    padding: var(--container-padding);
 }
 
 #container-2 {
+    gap: var(--container-gap);
+}
 
+#img-2 {
+    width: var(--img-width);
+    margin: 20px auto;
+}
+
+/* container-3 */
+
+#container-3-background {
+    background-color: var(--container-3-background);
+    padding: var(--container-padding);
+}
+
+#container-3 {
+    gap: var(--container-gap);
+}
+
+#img-3 {
+    width: var(--img-width);
+    margin: 20px auto;
+}
+
+/* container-4 */
+
+#container-4-background {
+    background-color: var(--container-4-background);
+    padding: var(--container-padding);
+}
+
+#container-4 {
+    gap: var(--container-gap);
+}
+
+#img-4 {
+    width: var(--img-width);
+    margin: 20px auto;
 }
 
 /* footer */
@@ -106,40 +144,36 @@ footer {
 /*sm*/
 @media (min-width: 576px) {
     :root {
-        --container-1-margin: 50px auto 25px auto;
-        --container-1-gap: 25px;
-        --img-1-width: 250px;
-        --container-2-padding: 25px 0 50px 0;
+        --container-padding: 50px 0;
+        --container-gap: 25px;
+        --img-width: 250px;
     }
 }
 
 /*md*/
 @media (min-width: 768px) {
     :root {
-        --container-1-margin: 100px auto 50px auto;
-        --container-1-gap: 50px;
-        --img-1-width: 300px;
-        --container-2-padding: 50px 0 100px 0;
+        --container-padding: 100px 0;
+        --container-gap: 50px;
+        --img-width: 300px;
     }
 }
 
 /*lg*/
 @media (min-width: 992px) {
     :root {
-        --container-1-margin: 150px auto 75px auto;
-        --container-1-gap: 75px;
-        --img-1-width: 400px;
-        --container-2-padding: 75px 0 150px 0;
+        --container-padding: 150px 0;
+        --container-gap: 75px;
+        --img-width: 400px;
     }
 }
 
 /*xl*/
 @media (min-width: 1200px) {
     :root {
-        --container-1-margin: 200px auto 100px auto;
-        --container-1-gap: 100px;
-        --img-1-width: 500px;
-        --container-2-padding: 100px 0 200px 0;
+        --container-padding: 200px 0;
+        --container-gap: 100px;
+        --img-width: 500px;
     }
 }
 
