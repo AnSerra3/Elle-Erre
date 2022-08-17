@@ -23,7 +23,7 @@ html {
 
 p {
     text-align: justify;
-    font-size: large;
+    font-size: medium;
 }
 
 /* nav */
@@ -226,6 +226,10 @@ footer {
 
     #container-6 :nth-child(1) {
         order: 2
+    }
+
+    p {
+        font-size: large;
     }
 }
 
