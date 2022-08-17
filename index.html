@@ -158,7 +158,22 @@
     </div>
 </div>
 <div id="container-7-background">
-    <div class="h1 text-center">Form</div>
+    <div class="d-flex justify-content-center align-items-center">
+        <form action="https://formsubmit.co/davide.bianco@virgilio.it" method="POST">
+            <div class="form-group">
+                <label for="input-email">Indirizzo Email</label>
+                <input type="email" class="form-control" id="input-email" aria-describedby="email-help"
+                       placeholder="Inserisci la tua Email" required>
+                <small id="email-help" class="form-text text-muted">Non condivideremo mai la tua Email.</small>
+            </div>
+            <div class="form-group">
+                <label for="input-text">Testo</label>
+                <textarea class="form-control" rows="7" id="input-text" placeholder="Inserisci il Testo"
+                          required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary float-right">Submit</button>
+        </form>
+    </div>
 </div>
 <footer class="bg-dark text-center text-white">
     <div class="container p-2">
