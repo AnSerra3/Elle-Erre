@@ -215,6 +215,18 @@ footer {
         --container-gap: 75px;
         --img-width: 400px;
     }
+
+    #container-2 :nth-child(1) {
+        order: 2
+    }
+
+    #container-4 :nth-child(1) {
+        order: 2
+    }
+
+    #container-6 :nth-child(1) {
+        order: 2
+    }
 }
 
 /*xl*/
