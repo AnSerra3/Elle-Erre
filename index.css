@@ -23,7 +23,7 @@ html {
 
 p {
     text-align: justify;
-    font-size: large;
+    font-size: medium;
 }
 
 /* nav */
@@ -182,6 +182,16 @@ p {
     width: var(--img-width);
 }
 
+/* form */
+
+form {
+    width: 350px;
+}
+
+textarea {
+    resize: none;
+}
+
 /* footer */
 
 footer {
@@ -197,6 +207,10 @@ footer {
         --container-gap: 25px;
         --img-width: 250px;
     }
+
+    form {
+        width: 400px;
+    }
 }
 
 /*md*/
@@ -205,6 +219,10 @@ footer {
         --container-padding: 100px 0;
         --container-gap: 50px;
         --img-width: 300px;
+    }
+
+    form {
+        width: 500px;
     }
 }
 
@@ -215,6 +233,26 @@ footer {
         --container-gap: 75px;
         --img-width: 400px;
     }
+
+    #container-2 :nth-child(1) {
+        order: 2
+    }
+
+    #container-4 :nth-child(1) {
+        order: 2
+    }
+
+    #container-6 :nth-child(1) {
+        order: 2
+    }
+
+    p {
+        font-size: large;
+    }
+
+    form {
+        width: 600px;
+    }
 }
 
 /*xl*/
@@ -223,6 +261,10 @@ footer {
         --container-padding: 200px 0;
         --container-gap: 100px;
         --img-width: 500px;
+    }
+
+    form {
+        width: 750px;
     }
 }
 
