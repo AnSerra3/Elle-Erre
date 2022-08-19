@@ -188,6 +188,10 @@ form {
     width: 350px;
 }
 
+#form-container {
+    gap: 40px;
+}
+
 textarea {
     resize: none;
 }
