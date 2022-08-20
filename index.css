@@ -76,9 +76,9 @@ p {
     margin: 10px auto;
 }
 
-/* container-1 */
+/* chi-siamo */
 
-#container-1-background {
+#chi-siamo {
     background-color: var(--container-1-background);
     padding: var(--container-padding);
 }
@@ -91,9 +91,9 @@ p {
     width: var(--img-width);
 }
 
-/* container-2 */
+/* il-cliente */
 
-#container-2-background {
+#il-cliente {
     background-color: var(--container-2-background);
     padding: var(--container-padding);
 }
@@ -106,9 +106,9 @@ p {
     width: var(--img-width);
 }
 
-/* container-3 */
+/* depositi */
 
-#container-3-background {
+#depositi {
     background-color: var(--container-3-background);
     padding: var(--container-padding);
 }
@@ -121,9 +121,9 @@ p {
     width: var(--img-width);
 }
 
-/* container-4 */
+/* trasporti */
 
-#container-4-background {
+#trasporti {
     background-color: var(--container-4-background);
     padding: var(--container-padding);
 }
@@ -136,9 +136,9 @@ p {
     width: var(--img-width);
 }
 
-/* container-5 */
+/* montaggi */
 
-#container-5-background {
+#montaggi {
     background-color: var(--container-5-background);
     padding: var(--container-padding);
 }
@@ -151,9 +151,9 @@ p {
     width: var(--img-width);
 }
 
-/* container-7 */
+/* contattateci */
 
-#container-7-background {
+#contattateci {
     background-color: var(--container-7-background);
     padding: var(--container-padding);
 }
