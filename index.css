@@ -7,7 +7,6 @@
     --container-3-background: rgb(235, 235, 235);
     --container-4-background: rgb(225, 225, 225);
     --container-5-background: rgb(235, 235, 235);
-    --container-6-background: rgb(245, 245, 245);
     --container-7-background: rgb(255, 255, 255);
 }
 
@@ -149,21 +148,6 @@ p {
 }
 
 #img-5 {
-    width: var(--img-width);
-}
-
-/* container-6 */
-
-#container-6-background {
-    background-color: var(--container-6-background);
-    padding: var(--container-padding);
-}
-
-#container-6 {
-    gap: var(--container-gap);
-}
-
-#img-6 {
     width: var(--img-width);
 }
 
