@@ -16,10 +16,6 @@ body, html {
     scroll-behavior: smooth;
 }
 
-html {
-
-}
-
 p {
     text-align: justify;
     font-size: medium;
@@ -256,11 +252,5 @@ footer {
     }
 }
 
-/*xxl*/
-@media (min-width: 1400px) {
-    :root {
-
-    }
-}
 
 
