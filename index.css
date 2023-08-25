@@ -2,11 +2,13 @@
     --container-padding: 35px 0;
     --container-gap: 25px;
     --img-width: 250px;
+    --video-height: 300px;
     --container-1-background: rgb(255, 255, 255);
     --container-2-background: rgb(245, 245, 245);
     --container-3-background: rgb(235, 235, 235);
     --container-4-background: rgb(225, 225, 225);
     --container-5-background: rgb(235, 235, 235);
+    --container-6-background: rgb(245, 245, 245);
     --container-7-background: rgb(255, 255, 255);
 }
 
@@ -151,6 +153,22 @@ p {
     width: var(--img-width);
 }
 
+/* galleria */
+
+#galleria {
+    background-color: var(--container-6-background);
+    padding: var(--container-padding);
+}
+
+#container-6 {
+    gap: var(--container-gap);
+}
+
+.videos {
+    height: var(--video-height);
+    margin-top: var(--video-margin-top);
+}
+
 /* contattateci */
 
 #contattateci {
@@ -190,7 +208,7 @@ footer {
 
 /*sm*/
 @media (min-width: 576px) {
-    :root {
+    :root { 
         --container-padding: 50px 0;
         --container-gap: 25px;
         --img-width: 250px;
@@ -204,6 +222,8 @@ footer {
 /*md*/
 @media (min-width: 768px) {
     :root {
+        --video-height: 450px;
+        --video-margin-top: 5px;
         --container-padding: 100px 0;
         --container-gap: 50px;
         --img-width: 300px;
@@ -217,6 +237,8 @@ footer {
 /*lg*/
 @media (min-width: 992px) {
     :root {
+        --video-height: 600px;
+        --video-margin-top: 7px;
         --container-padding: 150px 0;
         --container-gap: 75px;
         --img-width: 400px;
@@ -246,6 +268,8 @@ footer {
 /*xl*/
 @media (min-width: 1200px) {
     :root {
+        --video-height: 800px;
+        --video-margin-top: 10px;
         --container-padding: 200px 0;
         --container-gap: 100px;
         --img-width: 500px;
